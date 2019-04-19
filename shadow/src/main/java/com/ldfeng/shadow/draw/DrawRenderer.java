@@ -27,7 +27,9 @@ public class DrawRenderer implements IShadowRenderer{
     @Override
     public void makeShadow(View view) {
         this.view = view;
+        //得到初始化的背景图
         orignalDrawable = view.getBackground();
+        //创建新的背景图
         shadowDrawable = new RoundShadowDrawable(view, attr.getColors(),
                 attr.getCorner(), attr.getShadowSize());
         view.setBackgroundDrawable(shadowDrawable);

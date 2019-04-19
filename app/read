@@ -1,14 +1,24 @@
-技术亮点
 
-一、@IntDef的使用，可以用来实现限制传值的范围，如果不是这个范围则报错
 
-二、定义了IShadowRenderer渲染器接口，渲染分为四个部步骤，
-    //给控件增加渲染效果
-    void makeShadow(View view);
-    //移除渲染效果
-    void removeShadow();
-    //隐藏渲染效果
-    void hideShadow();
-    //显示渲染效果
-    void showShadow();
-三、SuperShadow提供了对外的使用，并没有继承view方法
+分为画和包裹两部分
+
+    技术亮点
+
+    一、@IntDef的使用，可以用来实现限制传值的范围，如果不是这个范围则报错
+
+    二、定义了IShadowRenderer渲染器接口，渲染分为四个部步骤，
+        通过
+        //给控件增加渲染效果
+        void makeShadow(View view);
+        //移除渲染效果
+        void removeShadow();
+        //隐藏渲染效果
+        void hideShadow();
+        //显示渲染效果
+        void showShadow();
+    三、SuperShadow提供了对外的使用，并没有继承view方法
+
+    学到了什么
+        一、接口参数反射的使用和限制
+        二、如果需要根据不同的内容来构造一个整体，则可以不同的实例化参数
+        三、渲染相当于流程，更加明确和精细化
