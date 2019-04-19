@@ -107,6 +107,9 @@ public class CornerShadowView extends View {
         }
     }
 
+    /**
+     * 构造器
+     */
     public static class Builder {
 
         private Context context;

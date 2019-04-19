@@ -4,6 +4,7 @@ import android.support.annotation.IntDef;
 
 /**
  * Created by ldf on 17/6/6.
+ * @IntDef 表示值的限定范围，如果超过这个范围，则会报错
  */
 @IntDef(flag = true, value = {ShadowDirection.LEFT, ShadowDirection.TOP,
         ShadowDirection.RIGHT, ShadowDirection.BOTTOM,

@@ -29,7 +29,7 @@ public class SuperShadow {
     public static final String WRAP = "wrapper";
 
     private Context context;
-
+    //渲染器
     private IShadowRenderer renderer;
 
     private boolean makeShadow;

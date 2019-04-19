@@ -4,6 +4,7 @@ import android.support.v4.graphics.ColorUtils;
 
 /**
  * Created by ldf on 17/6/6.
+ * 定义渲染控件的属性
  */
 
 public class ShadowAttr {
